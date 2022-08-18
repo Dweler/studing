@@ -8,14 +8,29 @@
 1. origin(or)
 1. upstream(up)
 
-## Инициализация локальная
+## Create new repository 
 ```
-mkdir <directory>
-cd <directory>
+mkdir <project's working directory>
+cd <project's working directory>
 git init
 ```
 
-## Клонирование существующего репозитория
+## Cloning a local or remote repository
+```
+git clone <url>
+```
+## Staging
+```
+git add <filename>
+git add -A
+git reset <filename>
 ```
 
+## Commits
+```
+git commit -m '...'
+```
+
+## Inspecting changes
+```
 ```
