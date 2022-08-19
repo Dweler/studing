@@ -31,7 +31,18 @@ git init
 ```
 git clone <url>
 ```
-## Staging
+## Operations
+```
+pwd sa  rp  or  us   operation
+ |==||==|            status
+     |==|            diff
+ --->                add
+     --->            commit
+ <---               ?restore
+ <---<---           ?checkout
+        |           ?log sho
+``` 
+### Staging
 ```
 git add <filename>
 git add -A
