@@ -1,7 +1,7 @@
 # Описание git
 
 ## Рабочие зоны git
-1. project's working directory(pwd)
+1. working tree(wt)
 1. staging area(sa) in file .git/index
 1. repository(rp) in directory .git 
 1. origin(or)
@@ -33,14 +33,14 @@ git clone <url>
 ```
 ## Operations
 ```
-pwd sa  rp  or  us   operation
+wt  sa  rp  or  us   operation
  |==||==|            status
-     |==|            diff
+ |===+==|            diff
  --->                add
      --->            commit
  <---               ?restore
- <---<---           ?checkout
-        |           ?log sho
+ <---<---            checkout
+        |           ?log show
 ``` 
 ### Staging
 ```
