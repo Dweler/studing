@@ -49,6 +49,14 @@ Nest one list within another
 
 Hard break - insert new line.  
 Soft break - inserting two spaces after each new line.
+
+table - 
+
+| Command | Description |
+| --- | --- |
+| Open Developer Tools | F12,Ctrl + Shift + I |
+| Open Developer Tools and bring focus to the console | Ctrl + Shift + J |
+
 # Examples
 
 # ? Title
