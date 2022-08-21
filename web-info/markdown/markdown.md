@@ -57,14 +57,25 @@ table -
 | Open Developer Tools | F12,Ctrl + Shift + I |
 | Open Developer Tools and bring focus to the console | Ctrl + Shift + J |
 
-# Examples
+## <i>Example</i>
 
-# ? Title
-- [Title](#title)
-  - [Section 1](#section-1)
-    - [Subsection 1.1](#subsection-11)
-  - [Section 2](#section-2)
-## Section 1
-### Subsection 1.1
-## Section 2
+Here's a useful method. Should produce clickable references in any MarkDown editor.
+
+# Table of contents
+1. [Introduction](#introduction)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+3. [Another paragraph](#paragraph2)
+
+## This is the introduction <a name="introduction"></a>
+Some introduction text, formatted in heading 2 style
+
+## Some paragraph <a name="paragraph1"></a>
+The first paragraph text
+
+### Sub paragraph <a name="subparagraph1"></a>
+This is a sub paragraph, formatted in heading 3 style
+
+## Another paragraph <a name="paragraph2"></a>
+The second paragraph text
 
