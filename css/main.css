@@ -1,25 +1,5 @@
-body {
-  background-color: aquamarine;
+#block {
+  background: red;
+  height: 200px;
+  width: 300px;
 }
-
-.main-text {
-  color:blueviolet;
-}
-
-#main-text {
-  color: red;
-}
-
-div b, #main-text .main-text {
-  color: green;
-}
-
-
-.main_link {
-  color: red;
-  text-decoration: none;
-}
-.main_link:hover {
-  color: blue;
-  text-decoration: overline;
-} 
